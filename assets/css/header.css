@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Roboto, sans-serif;
+}
+
+:root {
+    --navBg: #40475F;
+    --sYellow: #FFE802;
+    --sRed: #FF0000;
+    --fontColor: #404040;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--navBg);
+
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .logo {
+    color: black;
+    background-color: var(--sYellow);
+    font-size: 1.2rem;
+    padding: .3rem .1rem;
+    font-weight: bolder;
+
+    cursor: pointer;
+}
+
+header nav .input-group span:last-child {
+    color: white;
+    font-size: .8rem;
+    padding-left: 1rem;
+}
+
+header nav .input-group input {
+    background-color: #2F3546;
+    border: none;
+    outline: 0;
+}
+
+header nav .input-group .input-group-text {
+    background-color: #2F3546 !important;
+}
+
+header nav .input-group .input-group-text i {
+    color: grey;
+}
+
+header nav .input-group input::placeholder {
+    font-size: .9rem;
+    color: grey;
+}
+
+header nav .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav .login a {
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+
+header nav .login a:hover {
+    text-decoration: underline;
+}
+
+header nav .login button {
+    font-size: .9rem;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+header nav .login .line {
+    width: 1px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.165);
+}
+
+.adVideo {
+
+    padding: 0 8rem;
+}
+
+
+.adVideo iframe {
+    border: 2px solid grey;
+    padding: .1rem;
+}

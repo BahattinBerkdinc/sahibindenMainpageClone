@@ -1,0 +1,96 @@
+.mainContent {
+    display: flex;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.leftSide ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    list-style: none;
+
+    margin-bottom: 0;
+    padding: .5rem 0;
+
+    border-bottom: 1px solid rgba(128, 128, 128, 0.212);
+}
+
+
+.leftSide ul li .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.leftSide ul li .list-item .multiple-list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.leftSide ul li .list-item .list-items-main-link {
+    display: flex;
+    align-items: center;
+}
+
+.leftSide ul li .list-item .list-items-main-link i {
+    margin-right: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftSide ul li .list-item .list-item-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.leftSide ul li .list-item .list-item-links a {
+    display: flex;
+    align-items: center;
+}
+
+.leftSide ul li .list-item .list-item-links a i {
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+.leftSide ul li .list-item .list-item-links span {
+    color: rgba(128, 128, 128, 0.647);
+    margin-left: .3rem;
+}
+
+.leftSide ul li .list-item i {
+    font-size: 1.3rem;
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.leftSide ul li .list-item a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #013399;
+
+}

@@ -1,0 +1,116 @@
+footer {
+    background-color: #F9F9F9;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.126);
+
+    padding-top: 2rem;
+}
+
+footer .footer-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+footer .footer-top ul {
+    list-style: none;
+}
+
+footer .footer-top ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: .8rem;
+}
+
+
+/* footer bottom */
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 0rem;
+
+    padding: 0 2rem;
+}
+
+.footer-bottom .footer-bottom-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.footer-bottom .footer-bottom-top .footer-b-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-bottom .footer-bottom-top .footer-b-right select {
+    margin-right: 1.9rem;
+}
+
+.footer-bottom .footer-bottom-top .footer-b-left .services,
+.footer-bottom .footer-bottom-top .footer-b-left .helpCenter {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.footer-bottom .footer-bottom-top .footer-b-left .services .fb-left-text,
+.footer-bottom .footer-bottom-top .footer-b-left .helpCenter .fb-left-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bottom .footer-bottom-top .footer-b-left i {
+    width: 40px;
+    height: 40px;
+    background-color: #D52D38;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+}
+
+.footer-bottom .footer-bottom-top .footer-b-left .services .fb-left-text span:first-child,
+.footer-bottom .footer-bottom-top .footer-b-left .helpCenter .fb-left-text span:first-child {
+    color: #D52D38;
+}
+
+.footer-bottom .footer-bottom-top .footer-b-left .services .fb-left-text span:last-child,
+.footer-bottom .footer-bottom-top .footer-b-left .helpCenter .fb-left-text span:last-child {
+    font-size: .9rem;
+}
+
+
+.footer-bottom .footer-bottom-top .footer-b-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.footer-bottom .footer-bottom-bottom {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.footer-bottom .footer-bottom-bottom p {
+    padding: 1rem;
+    font-size: .7rem;
+    color: grey;
+    background-color: white;
+
+    border: 1px dotted black;
+}

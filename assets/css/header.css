@@ -27,6 +27,10 @@ header nav {
     justify-content: space-between;
 }
 
+header nav .logoSmall {
+    display: none;
+}
+
 header nav .logo {
     color: black;
     background-color: var(--sYellow);
@@ -103,4 +107,89 @@ header nav .login .line {
 .adVideo iframe {
     border: 2px solid grey;
     padding: .1rem;
+}
+
+
+
+
+
+@media screen and (max-width:1024px) {
+
+    header nav .logo {
+        display: none;
+    }
+
+    header nav .logo.logoSmall {
+        color: black;
+        background-color: var(--sYellow);
+        font-size: 2rem;
+        padding: 0rem 1rem;
+        font-weight: bolder;
+        cursor: pointer;
+        display: block;
+    }
+
+    header nav .input-group span:last-child {
+        display: none;
+    }
+
+    header nav .login {
+        display: none;
+    }
+
+    .adVideo {
+
+        padding: 0 1rem;
+    }
+
+
+}
+
+
+@media screen and (max-width:1200px) {
+
+    header nav .logo {
+        display: none;
+    }
+
+    header nav .logo.logoSmall {
+        color: black;
+        background-color: var(--sYellow);
+        font-size: 2rem;
+        padding: 0rem 1rem;
+        font-weight: bolder;
+        cursor: pointer;
+        display: block;
+    }
+
+    header nav .input-group span:last-child {
+        display: none;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:425px) {
+
+
+
+    header nav .input-group input {
+        display: none;
+    }
+
+    header nav .input-group .input-group-text {
+        display: none;
+    }
+
+    header nav .logoSmall {
+        margin-left: auto;
+        transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        -o-transform: translateX(50%);
+    }
+
 }

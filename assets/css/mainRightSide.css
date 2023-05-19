@@ -280,3 +280,46 @@
 .searchedLinks a:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .rightSide .banner {
+        display: none;
+    }
+
+    .menu .menuBox {
+
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .homeProjects {
+        display: none;
+    }
+
+    .rightTop.homep {
+        display: none;
+    }
+
+    .ads {
+        flex-direction: column;
+    }
+
+    .products {
+        justify-content: center !important;
+    }
+
+    .products.popular {
+        justify-content: center;
+
+    }
+
+    .products.popular .prodBox {
+        margin: 1rem;
+    }
+
+}

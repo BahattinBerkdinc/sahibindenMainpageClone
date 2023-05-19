@@ -10,6 +10,17 @@ footer .footer-top {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
+
+    gap: 2rem;
+}
+
+footer .footer-top .firstDiv,
+footer .footer-top .secondDiv {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+
+    justify-content: space-around;
 }
 
 footer .footer-top ul {
@@ -113,4 +124,84 @@ footer .footer-top ul li a {
     background-color: white;
 
     border: 1px dotted black;
+}
+
+@media screen and (max-width:425px) {
+
+    footer .footer-top .firstDiv,
+    footer .footer-top .secondDiv {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .footer-top {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: flex-start !important;
+
+    }
+
+    footer .footer-top .firstDiv,
+    footer .footer-top .secondDiv {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:1024px) {
+
+    .footer-top {
+        flex-wrap: wrap;
+
+    }
+
+    .footer-bottom .footer-bottom-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    .footer-bottom .footer-bottom-top .footer-b-left {
+
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .footer-bottom .footer-bottom-top .footer-b-left .services,
+    .footer-bottom .footer-bottom-top .footer-b-left .helpCenter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-bottom .footer-bottom-top .footer-b-right {
+        flex-direction: column;
+        margin-bottom: 2rem;
+        gap: 2rem;
+    }
+
+
+    .footer-bottom-bottom {
+        flex-direction: column;
+        margin-bottom: 2rem;
+        gap: 2rem;
+
+        align-items: center !important;
+    }
+
+    .footer-bottom div:last-child {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
 }
